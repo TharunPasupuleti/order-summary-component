@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0e8ff;
+}
+
+.card {
+    width: 380px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 30px;
+}
+
+.card-content h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1f2f56;
+}
+
+.description {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.plan-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f7ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.plan-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon {
+    background: #dfe6ff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.plan-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.plan-price {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.change {
+    font-size: 13px;
+    color: #3829e0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.payment-btn {
+    width: 100%;
+    padding: 15px;
+    background: #3829e0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 15px 20px rgba(56, 41, 224, 0.3);
+    transition: 0.3s;
+}
+
+.payment-btn:hover {
+    background: #2b1fcc;
+}
+
+.cancel {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6b7280;
+    cursor: pointer;
+}
